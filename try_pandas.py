@@ -19,6 +19,19 @@ print(df.describe())
 
 print(df.T)
 
+print(df.sort_values(by='C'))
+#print(df.head().sort_values(by='C'))
+
+
+print(df['D'])
+
+print(df[0:3])
+
+
+print(df[df.B>0].head())
+
+
+
 
 
 
